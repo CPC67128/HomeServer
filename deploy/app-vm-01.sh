@@ -3,7 +3,7 @@
 cd apps/phpmyadmin
 # cp .env.example .env
 # edit .env
-docker compose up -d
+docker compose up -d --pull always
 
 cd ../dolibarr
 # cp .env.example .env
